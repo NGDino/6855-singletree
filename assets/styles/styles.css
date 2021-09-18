@@ -22,7 +22,14 @@ body{
     font-family: 'introFont';
     font-size: 1.8em;
 }
-
+#youtube-player{
+   display: block;
+   margin: 0 auto;
+}
+#carousel-container{
+    width:100%!important;
+    height: '10%'
+}
 .title-font{
     font-family: 'titleFont';
 }
@@ -49,6 +56,9 @@ body{
 
 #price{
     display: inline-block;
+}
+#headshot{
+    vertical-align: middle;
 }
 
 #zest{
