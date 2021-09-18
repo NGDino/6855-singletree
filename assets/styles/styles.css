@@ -1,0 +1,75 @@
+
+@font-face{
+    font-family: 'titleFont';
+    src: url('../PoiretOne-Regular.ttf')
+}
+
+
+@font-face{
+    font-family: 'introFont';
+    src: url('../KaushanScript-Regular.ttf')
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #bee3db;
+}
+
+#intro{
+    font-family: 'introFont';
+    font-size: 1.8em;
+}
+
+.title-font{
+    font-family: 'titleFont';
+}
+
+#banner{
+    background-image: url('../images/pleasanton.jpg'), linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    border-bottom: double #FAF9F9;
+    background-size: cover;
+}
+/* #banner:before{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.5);
+    overflow: hidden;
+} */
+
+#price-box{
+    margin: auto;
+    text-align: center
+}
+
+#price{
+    display: inline-block;
+}
+
+#zest{
+    display: inline-block;
+}
+
+.bed-bath{
+    display: inline-block;
+}
+
+#description{
+    font-size: .85em;
+}
+
+#features{
+    max-width: 100%;
+}
+
+.box-style{
+    max-width: 95%;
+    background-color: rgba(234, 234, 234, 0.53);
+    padding: 1em;
+    border: 2px solid #89b0ae;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
